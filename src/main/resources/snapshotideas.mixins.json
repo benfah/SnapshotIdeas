@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "me.benfah.si.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  	"EntityMixin",
+	"LivingEntityMixin",
+	"PlayerEntityMixin"
+  ],
+  "client": [
+  	"client.ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

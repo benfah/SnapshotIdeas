@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"GNG",
+		"GGG"
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"N": {
+			"item": "minecraft:netherite_scrap"
+		}
+	},
+	"result": {
+		"item": "snapshotideas:reinforced_boat",
+		"count": 1
+	}
+}

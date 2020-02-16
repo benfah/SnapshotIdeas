@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "snapshotideas",
+  "version": "${version}",
+
+  "name": "Snapshot Ideas",
+  "description": "This mod adds ideas for the new snapshot versions!",
+  "authors": [
+    "benfah"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/snapshotideas/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.benfah.si.ExampleMod"
+    ],
+    "client": [
+      "me.benfah.si.Client"
+    ]
+  },
+  "mixins": [
+    "snapshotideas.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
