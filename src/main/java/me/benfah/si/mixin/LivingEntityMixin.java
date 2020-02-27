@@ -31,25 +31,20 @@ public abstract class LivingEntityMixin extends Entity {
 
 	@Inject(method = "onDismounted", at = @At(value = "HEAD"), cancellable = true)
 	public void onOnDismounted(Entity vehicle, CallbackInfo info) {
-		if (vehicle instanceof ReinforcedBoatEntity)
-		{
+		if (vehicle instanceof ReinforcedBoatEntity) {
 			handleDismount(vehicle, this, getMainArm());
 			info.cancel();
 		}
-		
-		System.out.println("TEST");
 
 	}
-	
+
 	@Inject(method = "isClimbing", at = @At(value = "RETURN", ordinal = 2), locals = LocalCapture.CAPTURE_FAILEXCEPTION, cancellable = true)
-	public void onIsClimbing(CallbackInfoReturnable<Boolean> info, BlockState state, Block block)
-	{
-		if(block instanceof WeepingVinesPlantBlock)
-		info.setReturnValue(true);
+	public void onIsClimbing(CallbackInfoReturnable<Boolean> info, BlockState state, Block block) {
+		if (block instanceof WeepingVinesPlantBlock)
+			info.setReturnValue(true);
 	}
-	
-	private static void handleDismount(Entity vehicle, Entity base, Arm arm)
-	{
+
+	private static void handleDismount(Entity vehicle, Entity base, Arm arm) {
 		double aa;
 		double ab;
 		double ac;
@@ -59,7 +54,7 @@ public abstract class LivingEntityMixin extends Entity {
 			Box box = vehicle.getBoundingBox();
 			float h = 0;
 			double g = box.y2;
-			byte j = 2;	
+			byte j = 2;
 			float k = -base.yaw * 0.017453292F - 3.1415927F + h;
 			float l = -MathHelper.sin(k);
 			float m = -MathHelper.cos(k);
@@ -83,7 +78,7 @@ public abstract class LivingEntityMixin extends Entity {
 			base.updatePosition(vehicle.getX(), vehicle.getBodyY(1.0D) + 0.001D, vehicle.getZ());
 		}
 	}
-	
+
 	@Shadow
 	public Arm getMainArm() {
 		return null;

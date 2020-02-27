@@ -1,3 +1,5 @@
 {
-	"item.snapshotideas.reinforced_boat": "Netherite Boat"
+	"item.snapshotideas.reinforced_boat": "Netherite Boat",
+	"block.snapshotideas.soul_flask": "Soul Flask",
+	"block.snapshotideas.soul_flask.obstructed": "Your soul flask has been obstructed"
 }

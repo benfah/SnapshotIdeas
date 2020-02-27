@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "lit=true,nether=true": { "model": "snapshotideas:block/soul_flask_burning_nether" },
+        "lit=false": { "model": "snapshotideas:block/soul_flask" },
+        "lit=true,nether=false": { "model": "snapshotideas:block/soul_flask_burning_overworld" }
+        
+    }
+}

@@ -1,3 +1,5 @@
 {
-	"item.snapshotideas.reinforced_boat": "Netheritboot"
+	"item.snapshotideas.reinforced_boat": "Netheritboot",
+	"block.snapshotideas.soul_flask": "Seelenflasche",
+	"block.snapshotideas.soul_flask.obstructed": "Deine Seelenflasche wurde zerstört"
 }

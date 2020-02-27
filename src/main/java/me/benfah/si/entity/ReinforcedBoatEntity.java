@@ -5,6 +5,8 @@ import java.util.List;
 
 import io.netty.buffer.Unpooled;
 import me.benfah.si.ExampleMod;
+import me.benfah.si.init.SIEntities;
+import me.benfah.si.init.SIItems;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.network.ServerSidePacketRegistry;
@@ -92,7 +94,7 @@ public class ReinforcedBoatEntity extends Entity {
 	}
 
 	public ReinforcedBoatEntity(World world, double x, double y, double z) {
-		this(ExampleMod.REINFORCED_BOAT, world);
+		this(SIEntities.REINFORCED_BOAT, world);
 		this.updatePosition(x, y, z);
 		this.setVelocity(Vec3d.ZERO);
 		this.prevX = x;
@@ -189,7 +191,7 @@ public class ReinforcedBoatEntity extends Entity {
 	}
 
 	public Item asItem() {
-		return ExampleMod.BOAT_ITEM;
+		return SIItems.BOAT_ITEM;
 	}
 
 	@Environment(EnvType.CLIENT)

@@ -21,6 +21,8 @@ dependencies {
 	
 	modCompile "io.github.prospector:modmenu:1.10.0+build.28"
 	
+	compile fileTree(dir: 'libs', include: ['*.jar'])
+	
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
