@@ -38,12 +38,6 @@ public abstract class LivingEntityMixin extends Entity {
 
 	}
 
-	@Inject(method = "isClimbing", at = @At(value = "RETURN", ordinal = 2), locals = LocalCapture.CAPTURE_FAILEXCEPTION, cancellable = true)
-	public void onIsClimbing(CallbackInfoReturnable<Boolean> info, BlockState state, Block block) {
-		if (block instanceof WeepingVinesPlantBlock)
-			info.setReturnValue(true);
-	}
-
 	private static void handleDismount(Entity vehicle, Entity base, Arm arm) {
 		double aa;
 		double ab;
