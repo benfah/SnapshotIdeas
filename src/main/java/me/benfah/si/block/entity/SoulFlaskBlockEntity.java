@@ -69,7 +69,7 @@ public class SoulFlaskBlockEntity extends BlockEntity {
 		
 		if(playerUuid != null)
 		{
-			tag.putUuid("PlayerUuid", playerUuid);
+			tag.putUuidNew("PlayerUuid", playerUuid);
 			tag.putInt("PlayerX", x);
 			tag.putInt("PlayerY", y);
 			tag.putInt("PlayerZ", z);
@@ -86,7 +86,11 @@ public class SoulFlaskBlockEntity extends BlockEntity {
 		
 		if(tag.contains("PlayerUuid"))
 		{
-			playerUuid = tag.getUuid("PlayerUuid");	
+			if(tag.containsUuidOld("PlayerUuid"))
+			playerUuid = tag.getUuidOld("PlayerUuid");	
+			else
+			playerUuid = tag.getUuidNew("PlayerUuid");	
+
 			x = tag.getInt("PlayerX");
 			y = tag.getInt("PlayerY");
 			z = tag.getInt("PlayerZ");
