@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "snapshotideas:polished_basalt"
+  },
+  "result": "snapshotideas:polished_basalt_slab",
+  "count": 2
+}

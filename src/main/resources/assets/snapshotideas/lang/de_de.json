@@ -1,5 +1,10 @@
 {
 	"item.snapshotideas.reinforced_boat": "Netheritboot",
 	"block.snapshotideas.soul_flask": "Seelenflasche",
-	"block.snapshotideas.soul_flask.obstructed": "Deine Seelenflasche wurde zerstört"
+	"block.snapshotideas.soul_flask.obstructed": "Deine Seelenflasche wurde zerstört",
+	"block.snapshotideas.basalt_stairs": "Basalttreppe",
+	"block.snapshotideas.basalt_slab": "Basaltstufe",
+	"block.snapshotideas.polished_basalt": "Polierter Basalt",
+	"block.snapshotideas.polished_basalt_stairs": "Polierte Basalttreppe",
+	"block.snapshotideas.polished_basalt_slab": "Polierte Basaltstufe"
 }

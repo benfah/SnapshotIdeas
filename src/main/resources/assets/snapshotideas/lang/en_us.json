@@ -1,5 +1,10 @@
 {
 	"item.snapshotideas.reinforced_boat": "Netherite Boat",
 	"block.snapshotideas.soul_flask": "Soul Flask",
-	"block.snapshotideas.soul_flask.obstructed": "Your soul flask has been obstructed"
+	"block.snapshotideas.soul_flask.obstructed": "Your soul flask has been obstructed",
+	"block.snapshotideas.basalt_stairs": "Basalt Stairs",
+	"block.snapshotideas.basalt_slab": "Basalt Slab",
+	"block.snapshotideas.polished_basalt": "Polished Basalt",
+	"block.snapshotideas.polished_basalt_stairs": "Polished Basalt Stairs",
+	"block.snapshotideas.polished_basalt_slab": "Polished Basalt Slab"
 }

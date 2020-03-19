@@ -2,7 +2,7 @@ package me.benfah.si.block.entity;
 
 import java.util.UUID;
 
-import me.benfah.si.ExampleMod;
+import me.benfah.si.SnapshotIdeas;
 import me.benfah.si.init.SIBlockEntities;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;

@@ -15,7 +15,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.benfah.si.ExampleMod"
+      "me.benfah.si.SnapshotIdeas"
     ],
     "client": [
       "me.benfah.si.Client"

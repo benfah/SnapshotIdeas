@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "snapshotideas:block/polished_basalt",
+        "top": "snapshotideas:block/polished_basalt",
+        "side": "snapshotideas:block/polished_basalt"
+    }
+}

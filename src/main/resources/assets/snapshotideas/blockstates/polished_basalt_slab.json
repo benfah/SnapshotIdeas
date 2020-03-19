@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "snapshotideas:block/polished_basalt_slab" },
+        "type=top": { "model": "snapshotideas:block/basalt_slab_top" },
+        "type=double": { "model": "snapshotideas:block/polished_basalt" }
+    }
+}

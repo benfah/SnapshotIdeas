@@ -2,7 +2,7 @@ package me.benfah.si.network;
 
 import java.util.UUID;
 
-import me.benfah.si.ExampleMod;
+import me.benfah.si.SnapshotIdeas;
 import me.benfah.si.entity.ReinforcedBoatEntity;
 import net.fabricmc.fabric.api.network.ClientSidePacketRegistry;
 import net.minecraft.client.MinecraftClient;

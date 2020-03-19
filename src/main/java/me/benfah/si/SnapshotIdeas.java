@@ -6,9 +6,9 @@ import me.benfah.si.init.SIEntities;
 import me.benfah.si.init.SIItems;
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class SnapshotIdeas implements ModInitializer {
 	
-	
+	public static final String MOD_ID = "snapshotideas";
 	
 	
 	

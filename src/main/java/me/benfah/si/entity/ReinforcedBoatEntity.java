@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 import io.netty.buffer.Unpooled;
-import me.benfah.si.ExampleMod;
+import me.benfah.si.SnapshotIdeas;
 import me.benfah.si.init.SIEntities;
 import me.benfah.si.init.SIItems;
 import net.fabricmc.api.EnvType;
@@ -914,7 +914,7 @@ public class ReinforcedBoatEntity extends Entity
 
 	protected boolean canAddPassenger(Entity passenger)
 	{
-		return this.getPassengerList().size() < 2 && !this.isInFluid(FluidTags.LAVA);
+		return this.getPassengerList().size() < 2 && !this.isSubmergedIn(FluidTags.LAVA);
 	}
 
 	public Entity getPrimaryPassenger()

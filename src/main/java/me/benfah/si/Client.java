@@ -26,6 +26,8 @@ public class Client implements ClientModInitializer
 	{
 		EntityRendererRegistry.INSTANCE.register(SIEntities.REINFORCED_BOAT, (entityRenderDispatcher, context) -> new ReinforcedBoatEntityRenderer(entityRenderDispatcher));
 		BlockRenderLayerMap.INSTANCE.putBlock(SIBlocks.SOUL_FLASK_BLOCK, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(SIBlocks.BASALT_SLAB_BLOCK, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(SIBlocks.BASALT_STAIRS_BLOCK, RenderLayer.getTranslucent());
 		SINetworkHandler.init();
 
 	}
