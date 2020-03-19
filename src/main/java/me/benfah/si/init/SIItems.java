@@ -13,7 +13,6 @@ public class SIItems {
 	
 	public static ReinforcedBoatItem BOAT_ITEM = new ReinforcedBoatItem(new Item.Settings().group(ItemGroup.TRANSPORTATION).fireproof().maxCount(1));
 	
-	public static BlockItem SOUL_FLASK_ITEM;
 	
 	public static BlockItem BASALT_SLAB_ITEM;
 	public static BlockItem BASALT_STAIRS_ITEM;
@@ -23,7 +22,6 @@ public class SIItems {
 	public static BlockItem POLISHED_BASALT_STAIRS_ITEM;
 	public static void init() {
 		Registry.register(Registry.ITEM, new Identifier("snapshotideas:reinforced_boat"), BOAT_ITEM);
-		SOUL_FLASK_ITEM = registerBlockItem(SIBlocks.SOUL_FLASK_BLOCK);
 		
 		BASALT_SLAB_ITEM = registerBlockItem(SIBlocks.BASALT_SLAB_BLOCK);
 		BASALT_STAIRS_ITEM = registerBlockItem(SIBlocks.BASALT_STAIRS_BLOCK);
